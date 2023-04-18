@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1001 Search by Keyword,Chrome 108.0.0.0,,,2565-12-16 12:26:31,2565-12-16 12:27:52,1m - 20.689s,FAILED
+,,,,,,,
+Test Cases/Tc1001 search by keyword,Chrome 108.0.0.0,,,2565-12-16 12:26:32,2565-12-16 12:26:54,22.052s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2565-12-16 12:26:34,2565-12-16 12:26:40,5.755s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 108.0.0.0,,,2565-12-16 12:26:40,2565-12-16 12:26:42,2.472s,PASSED
+"setText(findTestObject(""Page_Google/input__q""), ""NPRU"")",Chrome 108.0.0.0,,,2565-12-16 12:26:42,2565-12-16 12:26:43,1.371s,PASSED
+"click(findTestObject(""Page_Google/input__btnK""))",Chrome 108.0.0.0,,,2565-12-16 12:26:43,2565-12-16 12:26:52,8.869s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏนครปฐม"", false)",Chrome 108.0.0.0,,,2565-12-16 12:26:52,2565-12-16 12:26:54,1.290s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2565-12-16 12:26:54,2565-12-16 12:26:54,0.919s,PASSED
+,,,,,,,
+Test Cases/Tc1001 search by keyword - Copy,Chrome 108.0.0.0,,,2565-12-16 12:26:54,2565-12-16 12:27:11,16.185s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2565-12-16 12:26:56,2565-12-16 12:26:57,1.673s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 108.0.0.0,,,2565-12-16 12:26:57,2565-12-16 12:26:59,2.174s,PASSED
+"setText(findTestObject(""Page_Google/input__q""), ""CMRU"")",Chrome 108.0.0.0,,,2565-12-16 12:26:59,2565-12-16 12:27:00,1.087s,PASSED
+"click(findTestObject(""Page_Google/input__btnK""))",Chrome 108.0.0.0,,,2565-12-16 12:27:00,2565-12-16 12:27:08,7.886s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏเชียงใหม่"", false)",Chrome 108.0.0.0,,,2565-12-16 12:27:08,2565-12-16 12:27:10,1.334s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2565-12-16 12:27:10,2565-12-16 12:27:11,0.984s,PASSED
+,,,,,,,
+Test Cases/Tc1001 search by keyword - Copy (1),Chrome 108.0.0.0,,,2565-12-16 12:27:47,2565-12-16 12:27:52,4.907s,FAILED
+"openBrowser("""")",Chrome 108.0.0.0,,,2565-12-16 12:27:47,2565-12-16 12:27:50,2.558s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 108.0.0.0,,,2565-12-16 12:27:50,2565-12-16 12:27:52,1.854s,PASSED
+"setText(findTestObject(""Page_Google/input__q""), ""NPRU"")",Chrome 108.0.0.0,,,2565-12-16 12:27:52,2565-12-16 12:27:52,0.431s,FAILED

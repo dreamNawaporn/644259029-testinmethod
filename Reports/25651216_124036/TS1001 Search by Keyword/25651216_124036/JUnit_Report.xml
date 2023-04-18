@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1001 Search by Keyword" time="41.047" tests="3" failures="0" errors="0">
+   <testsuite name="TS1001 Search by Keyword" tests="3" failures="0" errors="0" time="41.047" skipped="0" timestamp="2565-12-16 12:40:52" hostname="Dell - 10.1.85.4" id="Test Suites/TS1001 Search by Keyword">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\Katalon Studio\\TestingMethod2\\Reports\\25651216_124036\\TS1001 Search by Keyword\\25651216_124036"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\Katalon Studio\\TestingMethod2\\Reports\\25651216_124036\\TS1001 Search by Keyword\\25651216_124036\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - 10.1.85.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="10.1.85.4"/>
+         <property name="sessionId" value="76e6e13d2b4c8b0e129a49107c1c631f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Tc1001 search by keyword" time="18.082" classname="Test Cases/Tc1001 search by keyword" status="PASSED">
+         <system-out><![CDATA[2565-12-16 12:40:53 - [TEST_CASE][PASSED] - Test Cases/Tc1001 search by keyword: Test Cases/Tc1001 search by keyword
+
+2565-12-16 12:40:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2565-12-16 12:40:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2565-12-16 12:40:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2565-12-16 12:40:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2565-12-16 12:40:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com"): Navigate to 'https://www.google.com' successfully
+
+2565-12-16 12:41:01 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com' successfully
+
+2565-12-16 12:41:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Google/input__q"), "NPRU"): Text 'NPRU' is set on object 'Object Repository/Page_Google/input__q'
+
+2565-12-16 12:41:02 - [MESSAGE][PASSED] - Text 'NPRU' is set on object 'Object Repository/Page_Google/input__q'
+
+2565-12-16 12:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Google/input__btnK")): Object: 'Object Repository/Page_Google/input__btnK' is clicked on
+
+2565-12-16 12:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input__btnK' is clicked on
+
+2565-12-16 12:41:09 - [TEST_STEP][PASSED] - verifyTextPresent("มหาวิทยาลัยราชภัฏนครปฐม", false): Text 'มหาวิทยาลัยราชภัฏนครปฐม' is present on page 
+
+2565-12-16 12:41:10 - [MESSAGE][PASSED] - Text 'มหาวิทยาลัยราชภัฏนครปฐม' is present on page 
+
+2565-12-16 12:41:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2565-12-16 12:41:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tc1002 search by keyword" time="11.391" classname="Test Cases/Tc1002 search by keyword" status="PASSED">
+         <system-out><![CDATA[2565-12-16 12:41:11 - [TEST_CASE][PASSED] - Test Cases/Tc1002 search by keyword: Test Cases/Tc1002 search by keyword
+
+2565-12-16 12:41:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2565-12-16 12:41:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2565-12-16 12:41:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2565-12-16 12:41:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2565-12-16 12:41:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com"): Navigate to 'https://www.google.com' successfully
+
+2565-12-16 12:41:16 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com' successfully
+
+2565-12-16 12:41:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Google/input__q"), "CMRU"): Text 'CMRU' is set on object 'Object Repository/Page_Google/input__q'
+
+2565-12-16 12:41:17 - [MESSAGE][PASSED] - Text 'CMRU' is set on object 'Object Repository/Page_Google/input__q'
+
+2565-12-16 12:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Google/input__btnK")): Object: 'Object Repository/Page_Google/input__btnK' is clicked on
+
+2565-12-16 12:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input__btnK' is clicked on
+
+2565-12-16 12:41:20 - [TEST_STEP][PASSED] - verifyTextPresent("มหาวิทยาลัยราชภัฏเชียงใหม่", false): Text 'มหาวิทยาลัยราชภัฏเชียงใหม่' is present on page 
+
+2565-12-16 12:41:21 - [MESSAGE][PASSED] - Text 'มหาวิทยาลัยราชภัฏเชียงใหม่' is present on page 
+
+2565-12-16 12:41:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2565-12-16 12:41:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tc1003 search by keyword" time="10.788" classname="Test Cases/Tc1003 search by keyword" status="PASSED">
+         <system-out><![CDATA[2565-12-16 12:41:22 - [TEST_CASE][PASSED] - Test Cases/Tc1003 search by keyword: Test Cases/Tc1003 search by keyword
+
+2565-12-16 12:41:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2565-12-16 12:41:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2565-12-16 12:41:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2565-12-16 12:41:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2565-12-16 12:41:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com"): Navigate to 'https://www.google.com' successfully
+
+2565-12-16 12:41:27 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com' successfully
+
+2565-12-16 12:41:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Google/input__q"), "SSRU"): Text 'SSRU' is set on object 'Object Repository/Page_Google/input__q'
+
+2565-12-16 12:41:28 - [MESSAGE][PASSED] - Text 'SSRU' is set on object 'Object Repository/Page_Google/input__q'
+
+2565-12-16 12:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Google/input__btnK")): Object: 'Object Repository/Page_Google/input__btnK' is clicked on
+
+2565-12-16 12:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input__btnK' is clicked on
+
+2565-12-16 12:41:31 - [TEST_STEP][PASSED] - verifyTextPresent("มหาวิทยาลัยราชภัฏสวนสุนันทา", false): Text 'มหาวิทยาลัยราชภัฏสวนสุนันทา' is present on page 
+
+2565-12-16 12:41:32 - [MESSAGE][PASSED] - Text 'มหาวิทยาลัยราชภัฏสวนสุนันทา' is present on page 
+
+2565-12-16 12:41:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2565-12-16 12:41:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2565-12-16 12:40:52 - [TEST_SUITE][PASSED] - TS1001 Search by Keyword: Test Cases/Tc1003 search by keyword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
